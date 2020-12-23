@@ -1,0 +1,123 @@
+header {
+  background: #282c34;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.searchcityName {
+  border-right: 10px solid #282c34;
+  height: 20px;
+  width: 200px;
+  padding: 12px 24px;
+  border-radius: 45px 0 0 45px;
+  font-size: 18px;
+  box-shadow: none;
+  height: 45px;
+}
+
+.checkWeather {
+  height: 45px;
+  border-radius: 0 45px 45px 0;
+  margin-left: -4px;
+  font-size: 15px;
+  width: 12%;
+}
+.checkWeather:hover {
+  background: #ccc;
+}
+select {
+  border-right: 10px solid #282c34;
+  height: 45px;
+  margin-left: -4px;
+  font-size: 15px;
+}
+.location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  margin-top: 20px;
+}
+.date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  margin-top: 16px;
+}
+.temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .checkWeather {
+    height: 45px;
+    width: 25%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .checkWeather {
+    height: 45px;
+    width: 25%;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .searchcityName,
+  select,
+  .checkWeather {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .checkWeather {
+    border-right: 10px solid #282c34;
+    border-left: 10px solid #282c34;
+    display: block;
+    border-radius: 0;
+    font-size: 17px;
+    width: 100%;
+    font-weight: 700;
+  }
+  select {
+    border-right: 10px solid #282c34;
+    border-left: 10px solid #282c34;
+    border-radius: 0;
+    height: 45px;
+    margin-left: -4px;
+    font-size: 15px;
+    width: 100%;
+  }
+  .searchcityName {
+    border-right: 10px solid #282c34;
+    border-left: 10px solid #282c34;
+    border-radius: 0;
+    font-size: 18px;
+    box-shadow: none;
+    height: 45px;
+    width: 100%;
+  }
+}

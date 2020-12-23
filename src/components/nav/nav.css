@@ -1,0 +1,66 @@
+.sidebar_container {
+  padding: 10px;
+  min-width: 200px;
+  height: 100%;
+  background-color: #282c34;
+  color: white;
+}
+
+.sidebar {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding:  0 16px;
+  border-radius: 4px;
+}
+.sidebar li a:hover {
+background: #1a83ff;
+}
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.page_container {
+  flex: 1;
+  padding: 10px;
+  background: #555;
+  /* width: 50%;
+  background-image: url('../../Images/cold-bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out; */
+}
+.navbar__link {
+  margin: 1em;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 6px;
+  text-indent: .3em;
+  color: #181818;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar__link--active {
+  border-bottom: 3px solid #29b6f6;
+  transition: border-bottom .5s ease-in-out;
+}
